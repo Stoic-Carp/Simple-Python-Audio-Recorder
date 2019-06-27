@@ -18,7 +18,7 @@ sudo python3 -m pip install pyaudio
 
 ## Authors
 
-* **Cai Yutian** - *Initial work* - [Stoic-Carp](https://github.com/Stoic-Carp)
+* **Cai Yutian** - [Stoic-Carp](https://github.com/Stoic-Carp)
 
 ## License
 
