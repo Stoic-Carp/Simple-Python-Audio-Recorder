@@ -27,4 +27,5 @@ This project is licensed under the MIT License
 ## Acknowledgments
 
 The code is largely based on the documentation from MATRIX (who provides add ons for Raspberry Pi) 
+
 Link: https://matrix-io.github.io/matrix-documentation/matrix-lite/py-reference/alsa-mics/ 
