@@ -2,12 +2,17 @@ import pyaudio
 import wave
 
 # recording configs
+# Default channels are 8 for Matrix Creator and recording seconds are 5 
 CHUNK = 2048
 FORMAT = pyaudio.paInt16
-CHANNELS = 8
+CHANNELS = 1
 RATE = 96000
 RECORD_SECONDS = 5
 WAVE_OUTPUT_FILENAME = "output.wav"
+
+# Get user input for recording options
+RECORD_SECONDS = int(input("Enter duration for recording in seconds: "))
+WAVE_OUTPUT_FILENAME = input("Enter output filename: ") + ".wav"
 
 # create & configure microphone
 mic = pyaudio.PyAudio()
